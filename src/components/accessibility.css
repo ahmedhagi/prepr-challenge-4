@@ -1,0 +1,405 @@
+body.modal-open {
+    overflow:scroll !important;
+}
+
+.acc-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 100% !important;
+    color: white !important;
+    background-color: #109326 !important;
+    outline: 0;
+    border: 0 !important;
+    font-size: 40px !important;
+    position: fixed;
+    top: 30px;
+    right: 0;
+    z-index: 10;
+
+}
+
+.btn-primary{
+    outline: 0;
+    border: 0 !important;
+}
+
+.acc-btn:hover{
+    background-color: #109326;
+    width: 55px;
+    height: 55px;
+
+
+}
+
+.acc-btn:focus, .acc-btn:active{
+    background-color: #109326;
+
+}
+
+.acc-btn i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-backdrop.show {
+    opacity: 0 !important;
+}
+
+.modal{
+    position: fixed !important;
+    background-color: #f2f3f8 !important;
+    width: 100% !important;
+    max-width: 550px !important;
+    height: 95% !important;
+    max-height: 95% !important;
+    top: 10px !important;
+    bottom: auto !important;
+    left: 30px !important;
+    right: auto !important;
+    border-radius: 10px !important;
+}
+
+
+
+.modal-dialog{
+    margin: 0 !important;
+    height: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.modal-content{
+    background-color: #f2f3f8 !important;
+    width: 100% !important;
+    height: 100%;
+    position: relative !important;
+
+}
+
+.modal .modal-content .modal-header{
+    color: white !important;
+    background-color: #109326 !important;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.modal .modal-content .modal-footer{
+    color: white !important;
+    background-color: #109326 !important;
+    
+
+}
+
+.modal .close-btn, .close-btn:hover {
+    margin: 0 !important;
+    padding: 0 0.75rem !important;
+    color: white !important;
+    outline: 0;
+    border: 0;
+    font-size: 20px;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+.close-btn:hover{
+    font-size: 24px;
+}
+
+.modal .menu-flags{
+
+    position: absolute !important;
+    top: 2px !important;
+    right: 10px !important;
+    font-size: 14px;
+    width: 30%;
+   
+    
+
+}
+
+.modal .menu-flags .menu-flags-button{
+    color:#FFF;
+    background-color: transparent;
+    border: 0;
+}
+
+.modal .menu-flags{
+    
+    padding: 3px 8px;
+    color: #000;
+}
+
+
+.modal .menu-flags .menu-flags-button:hover{
+    background-color: rgba(0,0,0,.2);
+    border-radius: 50px;
+    
+    
+}
+
+
+.modal .modal-content .modal-title{
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.modal .modal-content .header-btns{
+    margin-top: 30px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.modal .modal-content .header-btns .pill-btn{
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: #FFF;
+    color: #109326;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 9px 3px;
+    width: 100%;
+    max-width: 30%;
+    letter-spacing: .3px;
+}
+
+.modal .modal-content .header-btns .pill-btn:hover{
+    font-size: 18px;
+}
+
+.modal .modal-content .header-btns .pill-btn svg{
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+.modal .modal-content .form-control{
+    display: inline-block;
+}
+
+.modal .search-bar{
+    width: calc(100% - 30px);
+    margin: 30px auto auto;
+    position: relative;
+}
+
+.modal .search-bar .form-control{
+    width: 100%;
+    height: 41px;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 0 50px;
+    background-color: #0c7c1f;
+    color: #FFF;
+    
+}
+
+.modal .search-bar .form-control::placeholder {
+    color: #FFF;
+    
+  }
+
+  .modal .search-bar .form-control:hover::placeholder {
+    color: #000;
+    
+  }
+
+.modal .search-bar .form-control:focus, .modal .search-bar .form-control:hover {
+    box-shadow: none;
+    outline: 0;
+    border: 0;
+    color: #000;
+    background-color: #FFF;
+
+}
+
+.modal .search-bar:hover i{
+    color: #000;
+}
+
+
+.modal .search-bar .search-icon{
+   position: absolute; 
+    left: 10px;
+    top: 8px;
+}
+
+.modal .search-bar .caret-down{
+    position: absolute; 
+    right: 10px;
+    top: 8px;
+
+}
+
+
+.modal .modal-footer{
+    white-space: nowrap;
+    text-align: center;
+    padding: 8px 15px;
+    justify-content: center !important;
+}
+
+.modal .modal-footer a img{
+    width: 300px;
+    height: 16px;
+    
+
+}
+
+.acc-card{
+    overflow: hidden;
+    position: relative;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(60,80,170,.1);
+}
+
+
+
+.acc-card .card-title{
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.acc-card .form-switch{
+    display: flex;
+    padding: 18px 7px;
+    border-bottom: 1px #d4dcd5 solid;
+}
+
+.acc-card .form-switch input{
+    margin-left: 0px;
+    margin-right: 2rem;
+    width: 55px;
+    height: 35px;
+}
+
+.acc-card .form-switch .form-check-input:checked {
+    background-color: #0c7c1f;
+}
+
+.acc-card .form-switch .form-check-input:focus {
+    --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27%23e3e3e3%27/%3e%3c/svg%3e");
+    outline: 10;
+    border: 2px solid #e3e3e3;
+    box-shadow: none;
+    
+}
+
+.acc-card .form-switch  label{
+    font-size: 16px;
+    color: #1f2533;
+    cursor: pointer;
+}
+
+.acc-card .form-switch  label:hover{
+    color:#0c7c1f;
+}
+
+.acc-card .settings{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.acc-card .settings .setting {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 31%;
+    line-height: 1;
+    margin-bottom: 15px;
+    height: 120px;
+    outline: 0!important;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: solid 2px transparent;
+    background-color: #f2f7fa;
+    font-size: 16px;
+    color: #1f2533;
+    line-height: 1;
+
+}
+
+.acc-card .settings .setting.wide{
+    width: 65.5%;
+    cursor: default;
+}
+
+.acc-card .settings .setting.wide:hover{
+    border-color: transparent;
+}
+
+.acc-card .settings .setting.wide .colors{
+    margin-top: 20px;
+}
+
+.acc-card .settings .setting.wide .colors .color{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0 3px;
+    border-radius: 50px;
+    
+}
+
+.acc-card .settings .setting.wide a{
+    text-decoration: none;
+    color: #1f2533;
+    margin-top: 5px;
+}
+
+.acc-card .settings .setting.wide a:hover{
+    text-decoration: underline;
+}
+
+.acc-card .settings .setting svg{
+    margin-bottom: 20px;
+    height: 21px;
+    width: 21px;
+}
+
+.acc-card .settings .setting:hover{
+    border: solid 2px #0c7c1f;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+    .modal{
+        width: 95% !important;
+        height: 97%!important;
+        max-height: none;
+        max-width: 550px !important;
+        margin: 0px auto auto !important;
+        left: 0 !important;
+        right: 0 !important;
+    }
+
+}
+
+
+
+
+
